@@ -43,25 +43,31 @@ MetaMask (Browser Extension)
 
 Installation (Requires 3 Terminals)
 1. Terminal 1: Run Blockchain configuration
+2. ```
 # Start local blockchain with deterministic accounts
 ganache-cli -d
+```
 
 Terminal 2: Deploy Contracts
 Bash
+```
 # Clone repo and enter it
 git clone [https://github.com/muskanmaurya2/blockchain-voting-app.git](https://github.com/muskanmaurya2/blockchain-voting-app.git)
 cd blockchain-voting-app
 # Compile and deploy
 truffle migrate --reset
+```
 
 3. Terminal 3: Launch Frontend
 Bash
+```
 # From the root directory 'blockchain-voting-app'
 cd client
 # Install dependencies (first time only)
 npm install
 # Start React app
 npm start
+```
 The app will open at http://localhost:3000.
 
 🖱️ Usage
