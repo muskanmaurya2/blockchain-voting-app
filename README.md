@@ -87,5 +87,10 @@ As Admin: End the election. Results will be displayed.
 
 👩‍💻 Contributors:
 Aditya K.P, Kavya R, Ashwini Patil, Muskan Maurya
-Original Creator: Bibek Aryal
+
+
+Original Creator: 
+Bibek Aryal
+
+
 My Contributions: Full frontend redesign, dark/light mode implementation, and the new admin page and added total voter section.
