@@ -85,5 +85,7 @@ As Admin: Switch back to the admin account, go to the verification panel, and ap
 As Voter: Switch back to the voter account, go to the Voting page, and cast your vote.
 As Admin: End the election. Results will be displayed.
 
-👩‍💻 Contributors
-Aditya K.P, Muskan Maurya, Kavya R, Ashwini Patil
+👩‍💻 Contributors:
+Aditya K.P, Kavya R, Ashwini Patil, Muskan Maurya
+Original Creator: Bibek Aryal
+My Contributions: Full frontend redesign, dark/light mode implementation, and the new admin page and added total voter section.
