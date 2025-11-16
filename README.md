@@ -33,7 +33,7 @@ blockchain-voting-app/
 ├── package.json
 ├── README.md           # This file
 └── truffle-config.js   # Truffle configuration
-
+```
 🛠️ How to Run
 Prerequisites
 Node.js
