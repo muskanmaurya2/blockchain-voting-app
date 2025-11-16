@@ -1,0 +1,26 @@
+.start-btn {
+  display: block;
+  padding: 14px 28px;
+  margin: 12px;
+  min-width: max-content;
+  text-align: center;
+  width: 333px;
+  align-self: center;
+  background-color: #87ceeb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(135, 206, 235, 0.3);
+}
+.start-btn:hover {
+  background-color: #5db8d8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(135, 206, 235, 0.4);
+}
+.start-btn:active {
+  transform: translateY(0);
+}

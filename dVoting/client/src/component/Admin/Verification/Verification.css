@@ -1,0 +1,24 @@
+.btn-verification {
+  padding: 12px 20px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  float: inline-end;
+  background-color: #87ceeb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(135, 206, 235, 0.3);
+}
+.btn-verification:hover {
+  background-color: #5db8d8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(135, 206, 235, 0.4);
+}
+.btn-verification:active {
+  transform: translateY(0);
+}

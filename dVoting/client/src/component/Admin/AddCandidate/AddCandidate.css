@@ -1,0 +1,70 @@
+.form {
+  width: fit-content;
+  margin: 12px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.input-ac {
+  margin: 12px 0;
+  margin-left: 0;
+  padding: 12px 14px;
+  display: block;
+  width: 333px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+.input-ac:focus {
+  outline: none;
+  border-color: #87ceeb;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.1);
+}
+.label-ac {
+  display: block;
+  margin: 8px 0;
+  padding: 8px 0;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 14px;
+}
+.btn-add {
+  width: 25%;
+  padding: 12px 20px;
+  float: inline-end;
+  margin: 20px 0;
+  background-color: #87ceeb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(135, 206, 235, 0.3);
+}
+.btn-add:hover {
+  background-color: #5db8d8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(135, 206, 235, 0.4);
+}
+.btn-add:active {
+  transform: translateY(0);
+}
+
+@media all and (max-width: 400px) {
+  .input-ac,
+  .btn-add {
+    width: 100%;
+  }
+  .btn-add {
+    float: inline-start;
+  }
+}
